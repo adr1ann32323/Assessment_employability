@@ -1,0 +1,88 @@
+/* Custom styles to complement Bootstrap */
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Color Variables */
+:root {
+  --primary-gradient: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  --hero-bg: #4338ca;
+}
+
+/* Hero Section */
+.hero-section {
+  background: var(--primary-gradient);
+  min-height: 100vh;
+}
+
+/* Auth Pages */
+.auth-container {
+  min-height: 100vh;
+}
+
+.auth-left {
+  background: var(--primary-gradient);
+}
+
+/* Cards hover effect */
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+/* Avatar */
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar-lg {
+  width: 60px;
+  height: 60px;
+}
+
+/* Status badges */
+.badge-draft {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.badge-active {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+/* Custom button styles */
+.btn-gradient {
+  background: var(--primary-gradient);
+  border: none;
+  color: white;
+}
+
+.btn-gradient:hover {
+  opacity: 0.9;
+  color: white;
+}
+
+/* Navbar brand */
+.navbar-brand-custom {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* Footer */
+.footer-dark {
+  background-color: #0f172a;
+}
+
+
