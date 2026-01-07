@@ -227,6 +227,6 @@ audit_logs (id, action, entity_id, user_id, created_at)
 
 - **Backend**: Java 21 with multi-stage build for smaller image
 - **Database**: PostgreSQL 16 Alpine
-- **Network**: Bridge network for service communication
+- **Network**: Bridge network for service communication.
 
 
